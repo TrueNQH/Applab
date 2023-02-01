@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    margin-top: 92px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li {
+    display: inline-block;
+    padding: 0 15px
+}
+.header p {
+    display: inline-block;
+}
+.header_try {
+    background-color: blue;
+    color: #fff;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.header_logo {
+    color: #fcae61;
+    font-size: 30px;
+}
+.header_logo span {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.firtScreen{
+    
+    background-image: url(/images/new.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    
+}
+.intro_content {
+    width: 100%;
+    margin: 30px 55px;
+}
+.firtTag {
+    color: #000;
+    padding: 5px 45px;
+    background-color: #e2eaed;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.intro_icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px 10px;
+    background-color: #feaa25;
+    text-align: center;
+    border-radius: 50%;
+}
+.intro_icon i {
+    font-size: 18px;
+    transform: translateY(2px);
+}
+.intro_title {
+    font-size: 60px;
+    line-height: 70px;
+    margin: 10px 0;
+
+}
+.intro_more {
+    color: #616368;
+    width: 482px;
+    margin-bottom: 48px;
+}
+.intro_content {
+    margin-top: 45%;
+   
+}
+.intro_img {
+   display: flex!important;
+   justify-content: center;
+   margin-bottom: 40px;
+}
+.intro_img img {
+   transform: translateX(50px);
+
+}
+.intro_btn a {
+    color: blue;
+    margin-left: 32px;
+}
+.featureApp {
+
+    
+    margin: 120px 0;
+}
+.featureApp .title {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 40px;
+
+}
+
+.listCompany {
+    margin: 0 180px  120px;
+}
+.listCN {
+    margin-top: 95px;
+
+}
+.listCN-element {
+    display: flex;
+    margin-bottom: 65px;
+}
+.listCN-element img {
+    width: 50px;
+    height: 50px;
+    margin:  20px  ;
+
+}
+.contentTitle {
+    font-size: 36px;
+}
+.listCN-contentTitle {
+    font-size: 20px;
+    color: red;
+}
+.desrApp-title p{
+    color: #616368;
+}
+.listCNhorizon {
+    margin-top: 130px;
+}
+.mar-55 {
+    margin:0 55px;
+
+}
+.bgIcon img{
+    background-color: #ffecef;
+    border-radius: 50%;
+    padding: 10px;  
+}
