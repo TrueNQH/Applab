@@ -10,6 +10,22 @@
 a {
     text-decoration: none;
 }
+.w-270 {
+    width: 270px;
+    margin: 0 auto;
+}
+.w-530 {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title {
+    font-size: 40px;
+}
+.title-sub {
+    color: #616368;
+
+}
 .header {
     margin-top: 92px;
     
@@ -94,9 +110,11 @@ a {
    display: flex!important;
    justify-content: center;
    margin-bottom: 40px;
+   
 }
 .intro_img img {
    transform: translateX(50px);
+  
 
 }
 .intro_btn a {
@@ -133,12 +151,23 @@ a {
     margin:  20px  ;
 
 }
+
 .contentTitle {
     font-size: 36px;
 }
-.listCN-contentTitle {
+.listCN-contentTitle_red {
     font-size: 20px;
     color: red;
+}
+.listCN-contentTitle_blue {
+    color: #2563ff;
+    font-size: 20px;
+
+}
+.listCN-contentTitle_green {
+    font-size: 20px;
+    color: #40975f;
+
 }
 .desrApp-title p{
     color: #616368;
@@ -151,7 +180,85 @@ a {
 
 }
 .bgIcon img{
-    background-color: #ffecef;
+    
     border-radius: 50%;
     padding: 10px;  
+}
+.smartJackpost h1{
+    font-size: 40px;
+}
+.smartJackpost p{
+    color: #616368
+}
+.bgRed {
+    background-color: #ffecef;
+}
+.bgGreen {
+    background-color: #e4ffee;
+}
+.bgBlue {
+    background-color: #f4f4ff;
+}
+.bannerApp {
+    margin-top: 115px;
+}
+.bannerApp-content {
+    margin-left: 10%;
+}
+.bannerApp-content h1 {
+    font-size: 40px;
+  
+}
+.bannerApp-content p {
+    margin-bottom: 45px;
+    color: #616368
+
+}
+.whyChoose {
+    margin-top: 210px;
+    width: 1170px;
+}
+.whyChoose-header {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.bgWrap {
+    text-align: center;
+    margin-top: 80px;
+}
+.freequentlyQ {
+    text-align: left;
+    width: 940px;
+    background-color: #f5f7fa;
+
+    margin: 70px auto;
+    margin-bottom: 0;
+    padding: 50px;
+}
+.freequentlyQA b {
+    font-size:  20px;
+    
+}
+.freequentlyQ p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.freequentlyA    {
+    
+    text-align: left;
+    width: 940px;
+    background-color: #f5f7fa;
+    
+    margin: 10px auto;
+    padding: 20px 50px;
+}
+.freequentlyA-element {
+    display: flex;
+    justify-content: space-between;
+}
+.charAdd {
+    font-size: 21px;
+    
 }
