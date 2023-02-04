@@ -10,6 +10,9 @@
 a {
     text-decoration: none;
 }
+ul {
+    list-style: none;
+}
 .w-270 {
     width: 270px;
     margin: 0 auto;
@@ -169,6 +172,9 @@ a {
     color: #40975f;
 
 }
+.desrApp {
+    margin-bottom: 70px;
+}
 .desrApp-title p{
     color: #616368;
 }
@@ -180,7 +186,7 @@ a {
 
 }
 .bgIcon img{
-    
+    object-position: center;
     border-radius: 50%;
     padding: 10px;  
 }
@@ -189,6 +195,21 @@ a {
 }
 .smartJackpost p{
     color: #616368
+}
+.bgAward {
+    background-color: #eaf9ff;
+}
+.bgComputer {
+    background-color: #fff6d3;
+}
+.bgFix {
+    background-color: #e4ffee;
+}
+.bgUi {
+    background-color: #f4f4ff;
+}
+.bgCust {
+    background-color: #fdeee4;
 }
 .bgRed {
     background-color: #ffecef;
@@ -227,6 +248,10 @@ a {
     text-align: center;
     margin-top: 80px;
 }
+.freequentlyTitle {
+    margin: 0 auto;
+    text-align: center;
+}
 .freequentlyQ {
     text-align: left;
     width: 940px;
@@ -235,6 +260,13 @@ a {
     margin: 70px auto;
     margin-bottom: 0;
     padding: 50px;
+}
+.freequentlyQA {
+    margin-bottom: 110px;
+}
+.freequently-wrap {
+    margin: 0 auto;
+    border-bottom: 2px solid #f4f4f4;
 }
 .freequentlyQA b {
     font-size:  20px;
@@ -261,4 +293,44 @@ a {
 .charAdd {
     font-size: 21px;
     
+}
+.dowloadAt {
+    margin-top: 100px;
+}
+.imgDowload {
+    width: 180px;
+    height: 60px;
+    margin: 10px ;
+}
+
+.imgSmart3 img {
+    margin-top: 10px;
+    width: 100%;
+}
+.footer {
+    background-color: #09142e;
+    padding: 100px 0;
+}
+.footerContent {
+    text-align: center;
+
+
+}
+.menu, .social {
+    margin: 50px 0;
+}
+.menu ul li, .social ul li {
+    display: inline;
+    margin: 0 20px;
+
+}
+.Copyright, .menu ul li a {
+    color: #fff;
+}
+.social i {
+    color: #ffff;
+    font-size: 30px;
+}
+.logo .whiteColor {
+    color: #ffff;
 }
